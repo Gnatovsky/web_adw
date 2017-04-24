@@ -1,0 +1,25 @@
+.wrapper{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper_hello{
+  background-image: url(/assets/img/decor/water.jpg);
+  background-size: cover;
+}
+.wrapper__header{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+}
+.wrapper__hello{
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper__footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
