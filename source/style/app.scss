@@ -1,5 +1,4 @@
-body {
-  margin: 0;
-}
-
-@import 'common/greating';
+@import "layout/var";
+@import "layout/setups";
+@import "helper/**/*.scss";
+@import "block/**/*.scss";

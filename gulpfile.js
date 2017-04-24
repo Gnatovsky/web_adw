@@ -14,7 +14,8 @@ global.$ = {
   browserSync: require('browser-sync').create(),
   gp: require('gulp-load-plugins')(),
   merge: require('merge-stream'),
-  buffer: require('vinyl-buffer')
+  buffer: require('vinyl-buffer'),
+  sassGlob: require('gulp-sass-glob')
 };
 
 $.path.task.forEach(function(taskPath) {
