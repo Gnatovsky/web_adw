@@ -2,7 +2,22 @@
   display: block;
   background: $green_light;
   text-decoration: none;
+  color: $whith;
+  transition: .3s;
+  padding: 16px 32px;
+  border-left: 2px solid rgba(#dee3e7, .5);
+  &:first-child{
+    border-left: none;
+  }
   &:hover{
     background: $green;
+  }
+}
+.menu_welcome{
+  &:first-child{
+    border-radius: 0 0 0 5px;
+  }
+  &:last-child{
+    border-radius: 0 0 5px 0;
   }
 }
