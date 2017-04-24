@@ -1,0 +1,32 @@
+.welcome{
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: rgba(18, 38, 32, 0.6);
+}
+.welcome__img{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.welcome__name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $whith;
+}
+.welcome__title{
+  font-size: 24px;
+}
+.welcome__soc{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.welcome__menu{
+  display: flex;
+
+}

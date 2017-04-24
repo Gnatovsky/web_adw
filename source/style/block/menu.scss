@@ -1,0 +1,8 @@
+.menu{
+  display: block;
+  background: $green_light;
+  text-decoration: none;
+  &:hover{
+    background: $green;
+  }
+}

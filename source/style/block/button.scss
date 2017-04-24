@@ -1,0 +1,13 @@
+.button{
+  background: none;
+  border: 1px solid $whith;
+  padding: 15px 27px;
+  border-radius: 50px;
+  color: $whith;
+  cursor: pointer;
+  transition: .3s;
+  &:hover{
+    background: $green;
+    border-color: $green;
+  }
+}
