@@ -10,8 +10,7 @@
 .wrapper__header{
   display: flex;
   flex-direction: row-reverse;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding: 40px 100px;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%);
 }
 .wrapper__content{
