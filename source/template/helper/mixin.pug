@@ -1,0 +1,12 @@
+mixin svgicon(...items)
+  each item in items
+    svg(class="icon")&attributes(attributes)= myclass
+      use(xlink:href="assets/img/sprite.svg#"+item)
+
+mixin link(href,title,clas)
+  a(href=""+href, class=""+clas)=title
+
+mixin svgicon_link(href,icn,clasa,classvg,title)
+  a(href=""+href, class=""+clasa)=title
+    svg(class="icon "+classvg)&attributes(attributes)= myclass
+      use(xlink:href="assets/img/sprite.svg#" + icn)
